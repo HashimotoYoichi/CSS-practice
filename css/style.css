@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body h1 {
+  color: #14b8b8;
+  font-size: 48px;
+  text-align: center;
+  font-weight: normal;
+  text-decoration: line-through;
+  font-family: Verdana, "Arial Black", メイリオ, sans-serif;
+}
+
+body p {
+  line-height: 5;
+  background-color: 5;
+}
+
+body p img {
+  vertical-align: middle;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  list-style-image: url(../img/icon.png);
+}
+
+body main {
+  font-size: 32px;
+  line-height: 2rem;
+}
+
+body main section {
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
