@@ -17,14 +17,17 @@ body p img {
   vertical-align: middle;
 }
 
+body .info {
+  color: skyblue;
+}
+
 body a {
   text-decoration: none;
 }
 
-body ul {
-  list-style-type: circle;
-  list-style-position: inside;
-  list-style-image: url(../img/icon.png);
+body ul,
+body ol {
+  list-style: circle inside url(../img/icon.png);
 }
 
 body main {
