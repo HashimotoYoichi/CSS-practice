@@ -1,13 +1,8 @@
-body header {
-  height: 80px;
-  background: center/cover pink url("../img/header.png");
+#about > #main {
+  color: yellow;
 }
 
-body img {
-  float: right;
-}
-
-body h2 {
-  clear: both;
+main > P + P {
+  color: orange;
 }
 /*# sourceMappingURL=style.css.map */
