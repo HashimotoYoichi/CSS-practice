@@ -1,8 +1,22 @@
-#about > #main {
-  color: yellow;
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
-
-main > P + P {
-  color: orange;
+.box {
+  width: 100px;
+  height: 100px;
 }
+.box1 {
+  background-color: green;
+}
+.box2 {
+  background-color: orange;
+}
+.box3 {
+  background-color: yellow;
+}
+/* .container > .box + .box {
+  margin-left: 40px;
+} */
 /*# sourceMappingURL=style.css.map */
