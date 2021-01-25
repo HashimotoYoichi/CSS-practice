@@ -1,4 +1,36 @@
-.container {
+:root {
+  --my-hue: 50;
+  /* --my-color: blue;
+  --my-margin-left: 32; */
+}
+body {
+  background-color: hsl(var(--my-hue), 40%, 95%);
+}
+
+h1,
+p {
+  color: hsl(var(--my-hue), 35%, 55%);
+}
+.btn {
+  color: #fff;
+  width: 100px;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  background: hsl(calc(var(--my-hue) + 180), 50%, 50%);
+}
+
+/* h1 {
+
+  color: var(--my-color, orange);
+  border-bottom: 3px solid var(--my-color);
+  margin-left: calc(var(--my-margin-left) * 1px);
+}
+p {
+  color: var(--my-color);
+} */
+
+/* .container {
   display: flex;
   width: 360px;
   flex-direction: row;
@@ -10,7 +42,7 @@
 }
 .box1 {
   background-color: green;
-  flex-grow: 1;
+  flex-grow: 1;s
 }
 .box2 {
   background-color: orange;
@@ -19,7 +51,7 @@
 .box3 {
   background-color: yellow;
   flex-grow: 1;
-}
+} */
 /* .container > .box + .box {
   margin-left: 40px;
 } */
